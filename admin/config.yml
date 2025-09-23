@@ -31,3 +31,4 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Poster", name: "poster", widget: "image" }
+# added
