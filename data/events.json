@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "title": "Easter Sunday Service",
+      "date": "2025-04-20T10:00:00",
+      "location": "Grace Community Church",
+      "description": "Join us in celebrating the resurrection of Christ with worship, choir, and fellowship.",
+      "poster": "images/uploads/easter2025.jpg"
+    },
+    {
+      "title": "Weekly Bible Study",
+      "date": "2025-03-05T19:00:00",
+      "location": "Fellowship Hall",
+      "description": "Come together for scripture reading, discussion, and prayer.",
+      "poster": "images/uploads/biblestudy.jpg"
+    }
+  ]
+}

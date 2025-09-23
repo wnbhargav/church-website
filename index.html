@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Grace Community Church</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header>
     <nav>
-      <h1>Grace Community Church</h1>
+      <h1 id="site-name">Grace Community Church</h1>
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="admin/">Admin</a></li>
       </ul>
     </nav>
   </header>
 
   <section class="hero">
-    <h2>“For God so loved the world...” – John 3:16</h2>
-    <p>Welcome to our church family. Join us for worship and fellowship.</p>
-    <a href="events.html" class="btn">See Upcoming Services</a>
+    <div class="hero-inner">
+      <h2>“For God so loved the world...” – John 3:16</h2>
+      <p>Welcome to our church family. Join us for worship and fellowship.</p>
+      <a href="events.html" class="btn">See Upcoming Services</a>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Grace Community Church</p>
-    <div class="social">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="mailto:info@gracechurch.org"><i class="fa fa-envelope"></i></a>
-    </div>
+    <p>© <span id="year"></span> <span id="site-name-foot">Grace Community Church</span></p>
+    <div class="social" id="social-links"></div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

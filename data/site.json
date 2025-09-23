@@ -1,0 +1,19 @@
+{
+  "church_name": "Grace Community Church",
+  "email": "info@gracechurch.org",
+  "phone": "+1 234 567 890",
+  "address": "123 Church Street, Your City",
+  "maps_link": "https://goo.gl/maps/",
+  "service_times": [
+    { "name": "Sunday Worship", "time": "10:00 AM" },
+    { "name": "Wednesday Bible Study", "time": "7:00 PM" },
+    { "name": "Youth Fellowship", "time": "Friday 6:00 PM" }
+  ],
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "twitter": "",
+    "email": "info@gracechurch.org"
+  }
+}

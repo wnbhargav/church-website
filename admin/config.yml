@@ -33,6 +33,7 @@ collections:
               - { label: "YouTube", name: "youtube", widget: "string", required: false }
               - { label: "Twitter/X", name: "twitter", widget: "string", required: false }
               - { label: "Email", name: "email", widget: "string", required: false }
+              - { label: "WhatsApp", name: "whatsapp", widget: "string", required: false }
 
   - name: "events"
     label: "Events"
@@ -50,3 +51,4 @@ collections:
               - { label: "Location", name: "location", widget: "string", required: false }
               - { label: "Description", name: "description", widget: "text", required: false }
               - { label: "Poster", name: "poster", widget: "image", required: false }
+              - { label: "Published", name: "published", widget: "boolean", default: true }

@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact - Grace Community Church</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
     <nav>
-      <h1>Grace Community Church</h1>
+      <h1 id="site-name">Grace Community Church</h1>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="admin/">Admin</a></li>
       </ul>
     </nav>
   </header>
 
   <section class="content">
     <h2>Contact Us</h2>
-    <p><strong>Email:</strong> <a href="mailto:info@gracechurch.org">info@gracechurch.org</a></p>
-    <p><strong>Phone:</strong> +1 234 567 890</p>
-    <p><strong>Address:</strong> 123 Church Street, Your City, Your Country</p>
+    <p><strong>Email:</strong> <a id="contact-email" href="mailto:info@gracechurch.org">info@gracechurch.org</a></p>
+    <p><strong>Phone:</strong> <span id="contact-phone">+1 234 567 890</span></p>
+    <p><strong>Address:</strong> <span id="contact-address">123 Church Street, Your City</span></p>
+    <p><a id="maps-link" href="https://goo.gl/maps/" target="_blank">📍 View on Google Maps</a></p>
 
     <h3>Service Times</h3>
-    <ul>
-      <li>Sunday Worship – 10:00 AM</li>
-      <li>Wednesday Bible Study – 7:00 PM</li>
-      <li>Youth Fellowship – Friday 6:00 PM</li>
-    </ul>
-
-    <p><a href="https://goo.gl/maps/" target="_blank">📍 View on Google Maps</a></p>
+    <ul id="service-times"></ul>
   </section>
 
   <footer>
-    <p>© 2025 Grace Community Church</p>
+    <p>© <span id="year"></span> <span id="site-name-foot">Grace Community Church</span></p>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
